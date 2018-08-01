@@ -7,7 +7,6 @@ class App extends Component {
   constructor(props){
     super(props);
     this.state={
-      current : [],
       nameList : ['Apple', 'Microsoft', 'Haptik', 'Udacity', 'Udemy', 'Udauda', 'Zebra']
     }
   }
@@ -15,7 +14,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <AutoFill list={this.state.nameList} current={this.state.current}></AutoFill>
+        <AutoFill list={this.state.nameList}></AutoFill>
       </div>
     );
   }
