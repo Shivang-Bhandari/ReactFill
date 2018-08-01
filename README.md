@@ -1,1 +1,18 @@
-This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
+ReactFill is a React Component Implementation which helps with suggestions in forms for a pre-exisiting dataset
+The component has no self-state and uses only props.
+
+### Dependencies
+* This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
+* Material-UI (Core, Icons)
+* gh-pages
+
+### How to Run Locally
+* Download/Clone the Repo
+* Run `npm install` in the directory
+* Run `yarn start`
+
+## Deploying Project
+* Clone the Repo to your GitHub
+* Make the changes you wish to
+* Run `npm run build`
+* Run `npm run deploy`
